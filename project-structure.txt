@@ -1,0 +1,25 @@
+data_viz_system/
+├── app.py                  # Main Flask application
+├── static/                 # Static files
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── main.js
+├── templates/              # HTML templates
+│   └── index.html
+├── agents/                 # Agent modules
+│   ├── __init__.py
+│   ├── schema_mapping.py   # Schema Mapping Agent
+│   ├── data_processing.py  # Data Processing Agent
+│   ├── visualization.py    # Visualization Agent
+│   ├── quality_assurance.py # QA Agent
+│   └── orchestrator.py     # Orchestration Layer
+├── utils/                  # Utility functions
+│   ├── __init__.py
+│   ├── file_handler.py     # File upload/download handlers
+│   └── data_utils.py       # Data manipulation utilities
+├── models/                 # LLM model integration
+│   ├── __init__.py
+│   ├── llama_interface.py  # Interface to Llama via Ollama
+│   └── knowledge_base.py   # Storage for schema mappings
+└── requirements.txt        # Project dependencies
